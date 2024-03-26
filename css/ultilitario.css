@@ -1,0 +1,77 @@
+:root {
+  /*cores
+  /*cores de base*/
+  --cor-0: #ffffff;
+  --cor-10: #404040;
+  --cor-11: #151515;
+  --cor-12: #000000;
+  /* cores de enfase*/
+  --cor-p1: #ffead6;
+  --cor-p2: #ff9a3c;
+  --cor-p3: #ed4d1b;
+  /* Tipografias */
+  --titulo-grande-desk: 400 4rem/5rem "Pacifico", serif;
+  --titulo-grande-mobile: 400 3rem/3.75rem "Pacifico", serif;
+  --titulo-pequeno: 400 1.5rem/2rem "Pacifico", serif;
+  --texto-grande: 500 1.5rem/1.75rem "Roboto", sans-serif;
+  --texto-funcional: 700 1.25rem/2rem "Roboto", sans-serif;
+  --texto-medio: 500 1.25rem/1.5rem "Roboto", sans-serif;
+  --texto-pequeno: 500 1rem/1.25rem "Roboto", sans-serif;
+}
+
+/* Cores de Texto */
+
+.cor-0 {
+  color: var(--cor-0);
+}
+.cor-10 {
+  color: var(--cor-10);
+}
+.cor-11 {
+  color: var(--cor-11);
+}
+.cor-12 {
+  color: var(--cor-12);
+}
+.cor-p1 {
+  color: var(--cor-p1);
+}
+.cor-p2 {
+  color: var(--cor-p2);
+}
+.cor-p3 {
+  color: var(--cor-p3);
+}
+
+/* Tipografia*/
+
+.titulo-grande {
+  font: var(--titulo-grande-mobile);
+}
+
+.titulo-pequeno {
+  font: 400 1.5rem/2rem "Pacifico", serif;
+}
+
+.texto-grande {
+  font: var(--texto-medio);
+}
+
+.texto-funcional {
+  text-transform: uppercase;
+  font: 700 1.25rem/2rem "Roboto", sans-serif;
+}
+
+.texto-pequeno {
+  font: 500 1rem/1.25rem "Roboto", sans-serif;
+}
+
+@media() {
+  .titulo-grande {
+    font: var(--titulo-grande-desk);
+  }
+
+  .texto-grande {
+    font: var(--texto-grande);
+  }
+}
