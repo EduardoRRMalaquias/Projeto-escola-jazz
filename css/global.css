@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, var(--cor-p2) 0%, var(--cor-p1) 100%);
+  padding: 0 1rem;
+}
+
+.container {
+  border-color: var(--cor-12);
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+  padding: 1.2rem;
+}

@@ -6,12 +6,13 @@
   --cor-11: #151515;
   --cor-12: #000000;
   /* cores de enfase*/
-  --cor-p1: #ffead6;
-  --cor-p2: #ff9a3c;
-  --cor-p3: #ed4d1b;
+  --cor-p1: #fff2e5;
+  --cor-p2: #ffe7d1;
+  --cor-p3: #ff9a3c;
+  --cor-p4: #ed4d1b;
   /* Tipografias */
   --titulo-grande-desk: 400 4rem/5rem "Pacifico", serif;
-  --titulo-grande-mobile: 400 3rem/3.75rem "Pacifico", serif;
+  --titulo-grande-mobile: 400 2.5rem/3.75rem "Pacifico", serif;
   --titulo-pequeno: 400 1.5rem/2rem "Pacifico", serif;
   --texto-grande: 500 1.5rem/1.75rem "Roboto", sans-serif;
   --texto-funcional: 700 1.25rem/2rem "Roboto", sans-serif;
@@ -33,14 +34,8 @@
 .cor-12 {
   color: var(--cor-12);
 }
-.cor-p1 {
-  color: var(--cor-p1);
-}
-.cor-p2 {
-  color: var(--cor-p2);
-}
-.cor-p3 {
-  color: var(--cor-p3);
+.cor-p4 {
+  color: var(--cor-p4);
 }
 
 /* Tipografia*/
@@ -65,6 +60,35 @@
 .texto-pequeno {
   font: 500 1rem/1.25rem "Roboto", sans-serif;
 }
+
+.text-center {
+  text-align: center;
+}
+
+/* espaçamentos*/
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsivo */
 
 @media() {
   .titulo-grande {
