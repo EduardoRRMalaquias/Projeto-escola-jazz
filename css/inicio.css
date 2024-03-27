@@ -3,4 +3,34 @@
   padding-bottom: 16rem;
 }
 
+/* Decorador do titulo*/
+.decoracao {
+  display: block;
+  position: relative;
+}
 
+.decoracao::after {
+  content: "";
+  width: 46px;
+  height: 49px;
+  background: url(../img/three-dashes.svg);
+  position: absolute;
+  top: -0.5rem;
+
+}
+
+/* decorador do botão*/
+
+.secao-inicio .button {
+  position: relative;
+}
+
+.secao-inicio .button::after {
+  content: "";
+  background: url(../img/arrow-curve.svg);
+  position: absolute;
+  top: 5rem;
+  right: -4rem;
+  height: 48px;
+  width: 132px;
+}

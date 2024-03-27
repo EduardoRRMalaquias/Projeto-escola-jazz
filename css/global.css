@@ -28,6 +28,6 @@ img {
   background-color: var(--cor-p4);
   text-decoration: none;
   border: 2px solid var(--cor-12);
-  box-shadow: 4px 4px 0px 0px var(--cor-11);
-  max-width: 16rem;
+  box-shadow: 4px 4px 0px var(--cor-11);
+  max-width: 12rem;
 }

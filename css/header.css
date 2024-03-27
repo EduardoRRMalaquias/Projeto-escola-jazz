@@ -5,16 +5,19 @@ header img {
 
 header nav menu {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 8px;
   list-style: none;
-  place-content: center;
 }
 
 header nav a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   background-color: var(--cor-0);
   padding: 8px 10px;
   border-radius: 4px;
+}
+
+header nav li:nth-child(2n-1) {
+  text-align: right;
 }
