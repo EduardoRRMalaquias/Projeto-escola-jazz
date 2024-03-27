@@ -41,3 +41,22 @@
 .secao-cursos .button {
   max-width: 16rem;
 }
+
+
+/* Responsivo
+/* Tablet */
+@media (min-width: 40rem) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;*/
+  }
+
+  .card:nth-child(2n) {
+    margin-top: 1.5rem;
+  }
+
+  
+}

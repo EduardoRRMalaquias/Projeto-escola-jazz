@@ -93,7 +93,7 @@
 
 /* Responsivo */
 
-@media() {
+@media(min-width: 35rem) {
   .titulo-grande {
     font: var(--titulo-grande-desk);
   }
