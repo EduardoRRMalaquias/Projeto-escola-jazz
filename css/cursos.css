@@ -1,8 +1,6 @@
-
-.secao-cursos{
+.secao-cursos {
   padding-bottom: 8rem;
 }
-
 
 .cards {
   display: flex;
@@ -15,9 +13,9 @@
 
 .card {
   background-color: var(--cor-p4);
-  border: 2px solid black;
+  border: var(--borda);
   padding: 1.5rem 0 0 2rem;
-  box-shadow: 4px 4px 0px var(--cor-11);
+  box-shadow: var(--sombra);
   max-width: 16rem;
 }
 

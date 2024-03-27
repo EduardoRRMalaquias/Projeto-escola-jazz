@@ -18,6 +18,9 @@
   --texto-funcional: 700 1.25rem/2rem "Roboto", sans-serif;
   --texto-medio: 500 1.25rem/1.5rem "Roboto", sans-serif;
   --texto-pequeno: 500 1rem/1.25rem "Roboto", sans-serif;
+  /* efeitos */
+  --sombra: 4px 4px 0px var(--cor-11);
+  --borda: 2px solid var(--cor-12)
 }
 
 /* Cores de Texto */

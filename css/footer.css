@@ -1,0 +1,26 @@
+footer .container {
+  border-bottom: none;
+  padding: 1rem 1.25rem 1.25rem 4rem;
+}
+
+footer nav menu {
+  list-style: none;
+}
+
+footer nav a {
+  display: block;
+  text-decoration: none;
+  padding: 8px 10px;
+  padding-left: 0;
+}
+
+form label {
+  display: block;
+}
+
+form input {
+  box-shadow: var(--sombra);
+  border: var(--borda);
+  padding: 0.5rem;
+  width: 100%;
+}

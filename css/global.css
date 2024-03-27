@@ -27,8 +27,8 @@ img {
   padding: 12px 14px;
   background-color: var(--cor-p4);
   text-decoration: none;
-  border: 2px solid var(--cor-12);
-  box-shadow: 4px 4px 0px var(--cor-11);
+  border: var(--borda);
+  box-shadow: var(--sombra);
   max-width: 12rem;
 }
 
