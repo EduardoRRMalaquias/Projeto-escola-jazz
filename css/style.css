@@ -4,6 +4,8 @@
 @import "global.css";
 @import "ultilitario.css";
 
-/* componentes */
+/* seçoes */
+@import "header.css";
+@import "inicio.css"
 
-@import "header.css"
+
