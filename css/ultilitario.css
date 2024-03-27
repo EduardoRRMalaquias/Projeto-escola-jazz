@@ -48,7 +48,7 @@
   font: 400 1.5rem/2rem "Pacifico", serif;
 }
 
-.texto-grande {
+.texto-primario {
   font: var(--texto-medio);
 }
 
@@ -57,7 +57,7 @@
   font: 700 1.25rem/2rem "Roboto", sans-serif;
 }
 
-.texto-pequeno {
+.texto-secundario {
   font: 500 1rem/1.25rem "Roboto", sans-serif;
 }
 
