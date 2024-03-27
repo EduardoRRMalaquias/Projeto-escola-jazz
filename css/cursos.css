@@ -1,0 +1,45 @@
+
+.secao-cursos{
+  padding-bottom: 8rem;
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.25rem;
+  margin-top: -8rem;
+  margin-bottom: 4rem;
+}
+
+.card {
+  background-color: var(--cor-p4);
+  border: 2px solid black;
+  padding: 1.5rem 0 0 2rem;
+  box-shadow: 4px 4px 0px var(--cor-11);
+  max-width: 16rem;
+}
+
+.card:nth-child(2n) {
+  background-color: var(--cor-p3);
+  align-self: end;
+}
+
+.card h3 {
+  margin: 1rem 0;
+}
+
+.card p {
+  padding-right: 1rem;
+}
+
+.card a {
+  display: block;
+  margin: 3rem 0 0 auto;
+  width: fit-content;
+}
+
+.secao-cursos .button {
+  max-width: 16rem;
+}
