@@ -3,6 +3,10 @@
   padding-bottom: 16rem;
 }
 
+.secao-inicio img{
+  margin-right: auto;
+}
+
 /* Decorador do titulo*/
 .decoracao {
   display: block;
@@ -34,4 +38,14 @@
   width: 132px;
 }
 
+/*responsivo*/
+/*desktop*/
 
+@media (min-width: 74rem) {
+  .secao-inicio .content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+   
+  }
+}

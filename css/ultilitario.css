@@ -98,7 +98,11 @@
     font: var(--titulo-grande-desk);
   }
 
-  .texto-grande {
+  .texto-primario {
     font: var(--texto-grande);
+  }
+
+  footer .texto-secundario{
+    font: var(--texto-medio);
   }
 }

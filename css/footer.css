@@ -1,5 +1,5 @@
-footer .container {
-  border-bottom: none;
+footer.container {
+  border-bottom: 0;
   padding: 1rem 1.25rem 1.25rem 4rem;
 }
 
@@ -23,4 +23,31 @@ form input {
   border: var(--borda);
   padding: 0.5rem;
   width: 100%;
+}
+
+/* responsivo 
+/*desktop*/
+
+@media (min-width: 74rem) {
+  footer .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-info{
+    flex: 2;
+  }
+
+  .footer-info p{
+    max-width: 28ch;
+  }
+
+  footer nav{
+    flex: 1;
+  }
+
+  form{
+    flex: 3;
+  }
 }

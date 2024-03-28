@@ -30,5 +30,19 @@ img {
   border: var(--borda);
   box-shadow: var(--sombra);
   max-width: 12rem;
+  cursor: pointer;
 }
 
+.button:hover {
+  background-color: var(--cor-p3);
+}
+
+.button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px var(--cor-11);
+}
+
+.content{
+  max-width: 80rem;
+  margin: 0 auto;
+}

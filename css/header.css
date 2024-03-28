@@ -3,6 +3,10 @@ header img {
   margin: 1rem auto;
 }
 
+header nav{
+  margin: 1rem auto;
+}
+
 header nav menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -21,7 +25,7 @@ header nav a {
 
 /* Responsivo
 /* Tablet */
-@media (min-width: 35rem) {
+@media (min-width: 34rem) {
   header nav menu {
     display: block;
     text-align: center;
@@ -30,6 +34,23 @@ header nav a {
     align-items: center;
     max-width: 100%;
   }
+}
 
-  
+@media (min-width: 56rem) {
+  header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+
+  header nav a{
+    background-color: transparent;
+  }
+
+  header img,
+  header nav,
+  header .button {
+    margin: 0;
+  }
 }
