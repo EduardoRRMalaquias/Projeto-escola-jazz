@@ -25,6 +25,22 @@ form input {
   width: 100%;
 }
 
+.redes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.redes ul {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
 /* responsivo 
 /*desktop*/
 
@@ -35,19 +51,19 @@ form input {
     align-items: center;
   }
 
-  .footer-info{
+  .footer-info {
     flex: 2;
   }
 
-  .footer-info p{
+  .footer-info p {
     max-width: 28ch;
   }
 
-  footer nav{
+  footer nav {
     flex: 1;
   }
 
-  form{
+  form {
     flex: 3;
   }
 }

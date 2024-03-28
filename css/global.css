@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 140px;
+}
+
 body {
   background: linear-gradient(90deg, var(--cor-p2) 0%, var(--cor-p1) 100%);
   padding: 0 1rem;
@@ -42,7 +47,7 @@ img {
   box-shadow: 2px 2px 0px var(--cor-11);
 }
 
-.content{
+.content {
   max-width: 80rem;
   margin: 0 auto;
 }
