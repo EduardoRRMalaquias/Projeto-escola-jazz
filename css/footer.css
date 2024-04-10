@@ -12,6 +12,7 @@ footer nav a {
   text-decoration: none;
   padding: 8px 10px;
   padding-left: 0;
+  width: fit-content;
 }
 
 form label {
@@ -19,6 +20,7 @@ form label {
 }
 
 form input {
+  display: block;
   box-shadow: var(--sombra);
   border: var(--borda);
   padding: 0.5rem;
@@ -35,11 +37,12 @@ form input {
 
 .redes ul {
   display: flex;
-  gap: 60px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
   list-style: none;
 }
+
 
 /* responsivo 
 /*desktop*/

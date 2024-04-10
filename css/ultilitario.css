@@ -53,7 +53,6 @@
 
 .texto-primario {
   font: var(--texto-medio);
-  max-width: 24ch;
 }
 
 .texto-funcional {
@@ -101,7 +100,6 @@
 
   .texto-primario {
     font: var(--texto-grande);
-    max-width: fit-content;
   }
 
   footer .texto-secundario {
